@@ -1,0 +1,70 @@
+#chat-log {
+    width: 99%;
+    background-color: #fff;
+    height: 450px;
+    border-style: dashed;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-top-color: rgb(206, 212, 218);
+    border-right-color: rgb(206, 212, 218);
+    border-bottom-color: rgb(206, 212, 218);
+    border-left-color: rgb(206, 212, 218);
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.mesaj-input {
+    width: 75%;
+    height: 36px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.mesaj-button {
+    height: 50px;
+    margin-top: 10px;
+}
+.sen-mesaj {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.bot-mesaj {
+    align-items: flex-end;
+    display: flex;
+}
+
+
+/* Scrollbar özelliği eklemek için */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Scrollbar çubuğu */
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Scrollbar kolu */
+body::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Scrollbar kolu mouse üzerinde */
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+div#chat-log{
+    height: 450px;
+    overflow: auto;
+}
